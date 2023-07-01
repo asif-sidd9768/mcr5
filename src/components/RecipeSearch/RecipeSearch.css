@@ -1,0 +1,27 @@
+.search-container {
+  margin: 1rem 1rem 0 1rem;
+  border: 1px solid #999999;
+  border-radius: 8px;
+}
+
+.search-input {
+  padding: 8px;
+  margin: 0 2rem 0 0;
+  border: none;
+  border-right: 1px solid #999999;
+  border-radius: 8px;
+}
+
+.search-filter-text {
+  margin: 0 1rem 0 0;
+  font-weight: bold;
+}
+
+.search-type{
+  margin: 0 1rem 0 0 ;
+}
+
+.search-type-label {
+  margin: 0 0 0 0.2rem;
+  font-size: 0.9rem;
+}
