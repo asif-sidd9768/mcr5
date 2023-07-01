@@ -9,7 +9,7 @@ export const DetailPage = () => {
   const { recipeId } = useParams()
   const foundRecipe = recipeState?.recipes?.find(({id}) => id === Number(recipeId))
 
-  if(foundRecipe){
+  if(!foundRecipe){
     return <p>Loading...</p>
   }
 
