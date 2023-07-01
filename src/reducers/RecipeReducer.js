@@ -1,8 +1,8 @@
 import { RECIPE_DATA } from "../db/recipeData";
 
 export const initialState = {
-  // recipes: JSON.parse(localStorage.getItem("recipes")) || RECIPE_DATA,
-  recipes: RECIPE_DATA,
+  recipes: JSON.parse(localStorage.getItem("recipes")) || RECIPE_DATA,
+  // recipes: RECIPE_DATA,
   addingRecipe: false,
   searchParam: "",
   searchType: "recipeName",
